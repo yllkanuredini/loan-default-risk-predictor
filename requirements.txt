@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+pyodbc
+SQLAlchemy
+fastapi
+uvicorn
+pydantic
+pytest
+python-dotenv
+xgboost
+lightgbm
+httpx

@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+
+# Data files
+data/raw/*
+data/processed/*
+data/sample/*
+
+# Keep folders, but ignore files inside them
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/.gitkeep
+
+# Model artifacts
+models/*.joblib
+models/*.pkl
+models/*.pt
+
+# Reports / generated files
+reports/figures/*
+reports/metrics/*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#notebooks
+.ipynb_checkpoints/
