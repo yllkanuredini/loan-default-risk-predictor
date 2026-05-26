@@ -122,7 +122,6 @@ The preprocessing pipeline includes:
 
 - Removing the `LoanID` column
 - Splitting data into train, validation, and test sets
-- Stratified splitting because the target is imbalanced
 - Scaling numerical features
 - Encoding categorical features
 - Handling missing values with imputation
